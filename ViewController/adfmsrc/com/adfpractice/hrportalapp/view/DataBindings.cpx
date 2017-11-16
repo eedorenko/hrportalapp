@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Application xmlns="http://xmlns.oracle.com/adfm/application" version="12.1.3.10.47" id="DataBindings" SeparateXMLFiles="false" Package="com.adfpractice.hrportalapp.view" ClientType="Generic">
+  <definitionFactories>
+    <factory nameSpace="http://xmlns.oracle.com/adf/controller/binding" className="oracle.adf.controller.internal.binding.TaskFlowBindingDefFactoryImpl"/>
+    <dtfactory className="oracle.adf.controller.internal.dtrt.binding.BindingDTObjectFactory"/>
+  </definitionFactories>
+  <pageMap>
+    <page path="/index.jsf" usageId="com_adfpractice_hrportalapp_view_indexPageDef"/>
+  </pageMap>
+  <pageDefinitionUsages>
+    <page id="com_adfpractice_hrportalapp_view_indexPageDef" path="com.adfpractice.hrportalapp.view.pageDefs.indexPageDef"/>
+  </pageDefinitionUsages>
+</Application>
