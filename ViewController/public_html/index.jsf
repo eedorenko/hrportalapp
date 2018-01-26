@@ -3,6 +3,8 @@
 <f:view xmlns:f="http://java.sun.com/jsf/core" xmlns:af="http://xmlns.oracle.com/adf/faces/rich">
   <af:document title="index.jsf" id="d1">
     <af:form id="f1"></af:form>
+
+
     <af:panelTabbed position="above" id="pt1">
       <af:showDetailItem id="tab1" text="Departments">
         <af:region value="#{bindings.taskflowdefinition1.regionModel}" id="r1"/>
